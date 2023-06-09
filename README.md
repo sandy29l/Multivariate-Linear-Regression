@@ -26,8 +26,8 @@ Print the predicted output.
 ## Program:
 ```
 '''
-Developed by: Vanitha S
-Register number: 212222100057
+Developed by: Santhosh L
+Register number: 212222100046
 '''
 import pandas as pd
 from sklearn import linear_model
