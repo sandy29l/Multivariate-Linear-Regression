@@ -1,33 +1,33 @@
-## Implementation of Multivariate Linear Regression
-
-# Aim
+# Implementation of Multivariate Linear Regression
+## Aim
 To write a python program to implement multivariate linear regression and predict the output.
+## Equipment’s required:
+1.	Hardware – PCs
+2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
+## Algorithm:
+### Step1:
+import pandas as pd
 
-# Equipment’s required:
-Hardware – PCs
-Anaconda – Python 3.7 Installation / Moodle-Code Runner
+### Step2:
+Read the csv file
 
-# Algorithm:
+### Step3:
+Get the values of x and y variables.
 
-# Step1
-Import panda module as pd
+### Step4:
+Create the linear regression model and fit.
 
-# Step2
-Import linear model from sklearn
+### Step5:
+Predict the CO2 emission of a car where the weight is 3300kg, and the vlume is 1300cm3.
 
-# Step3
-Read the file cars.csv
+### Steop6:
+Print the predicted output.
 
-# Step4
-Assign the values for x and y as required
-
-# Step5
-Create the linearRegression model and predict the output
-
-# Program:
+## Program:
+```
 '''
-Developed by: Santhosh L
-Register number: 212222100046
+Developed by: Vanitha S
+Register number: 212222100057
 '''
 import pandas as pd
 from sklearn import linear_model
@@ -40,9 +40,10 @@ print("Coefficient:",regr.coef_)
 print("Intercept:",regr.intercept_)
 print("Amount:",regr.predict([[3300,1300]]))
 
-# Output:
-![maths-10](https://github.com/sandy29l/Multivariate-Linear-Regression/assets/123359969/a4064fea-0994-4c65-a785-b8205765786b)
+```
+## Output:
+![maths-10](https://github.com/sandy29l/Multivariate-Linear-Regression/assets/123359969/4999bb2b-13fc-4bd7-aefc-801e7b3f5694)
 
 
-# Result
+## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
